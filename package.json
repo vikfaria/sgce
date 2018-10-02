@@ -1,6 +1,9 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
+   "name": "sgce",
+  "version": "3.2.2",
+  "homepage": "https://vikfaria.github.io/"
   "dependencies": {
     "expo": "^28.0.0",
     "native-base": "^2.8.0",
@@ -9,5 +12,10 @@
     "react-native-maps-directions": "^1.6.0",
     "react-native-router-flux": "^4.0.0-beta.31",
     "react-navigation": "^2.6.2"
+    "gh-pages:"^2.0.0",
+  },
+   "scriptts": {
+   "predploy": "npm run build",
+   "deploy": "gh-pages -d build",  
   }
 }
